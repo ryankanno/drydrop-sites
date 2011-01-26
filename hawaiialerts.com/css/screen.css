@@ -1,0 +1,27 @@
+#content {
+  margin:0 auto;  
+  text-align:center;
+}
+
+#hawaiialerts_tweets ul {
+  margin:0 auto;
+  width:75%;
+  text-align:left;
+}
+
+#hawaiialerts_tweets ul li {
+  list-style-type:none;
+  margin-bottom:10px;
+}
+
+header, footer {
+  text-align:center;  
+}
+
+header {
+  margin: 2em;
+}
+
+footer {
+  margin-top: 10em;  
+}
