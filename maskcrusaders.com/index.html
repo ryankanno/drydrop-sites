@@ -1,0 +1,45 @@
+<!doctype html>  
+
+<html lang="en"> 
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+  <meta charset="utf-8">
+  <title>M.A.S.K. | Mobile Armored Strike Kommand</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="stylesheet" href="css/screen.css" type="text/css" media="screen" charset="utf-8" />
+  <script type="text/javascript" src="js/swfobject.js"></script>    
+  <script type="text/javascript">
+
+    var params   = { allowScriptAccess: "always" };
+    var attribs  = { id: "player" };
+    swfobject.embedSWF("http://www.youtube.com/apiplayer?enablejsapi=1&version=3&playerapiid=player", 
+                       "ytapiplayer", "640", "480", "8", null, null, params, attribs);
+
+    function onYouTubePlayerReady(player_id) {
+      player = document.getElementById(player_id);
+      player.cueVideoById('o2Z1yLO9C-Q', 0, 'hd720');
+      player.playVideo();
+    }
+
+  </script>
+</head>
+
+<body>
+  <div id="container">
+    <header>
+        <h1>M.A.S.K.</h1> 
+        <h1>Mobile Armored Strike Kommand</h1>
+        <img src="img/logo.jpg"/>
+    </header>
+    
+    <div id="content">
+        <div id="ytapiplayer">
+            You need Flash player 8+ and JavaScript enabled to view this video.
+        </div>
+    </div>
+
+    <footer>&copy; 2011 maskcrusaders.com</footer>
+  </div> 
+</body>
+</html>

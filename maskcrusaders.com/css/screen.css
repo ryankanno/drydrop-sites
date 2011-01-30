@@ -1,0 +1,9 @@
+header, footer {
+  margin:0 auto;
+  text-align:center;
+}
+
+div#content {
+  margin:1em auto;
+  text-align:center;
+}
